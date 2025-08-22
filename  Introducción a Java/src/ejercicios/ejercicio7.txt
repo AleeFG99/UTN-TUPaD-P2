@@ -1,0 +1,25 @@
+Ejercicio7
+
+-Línea 1 (int x = 10;) ? Instrucción de declaración y asignación
+-Línea 2 (x = x + 5;)
+
+    
+x + 5 ? Expresión (produce un valor)
+    
+
+x = x + 5; ? Instrucción de asignación (usa la expresión y cambia el valor de x)
+-
+
+Línea 3 (System.out.println(x);) ? Instrucción (ordena ejecutar una acción)
+-
+
+Dentro de los paréntesis, x es una expresión (su valor se evalúa antes de imprimirlo).
+
+
+int x = 10;          // Línea 1 ? x vale 10
+x = x + 5;           // Línea 2 ? x = 10 + 5 ? ahora x vale 15
+System.out.println(x); // Línea 3 ? imprime el valor de x
+
+Salida en consola:
+
+15
